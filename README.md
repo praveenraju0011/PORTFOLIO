@@ -1,39 +1,77 @@
-# My Portfolio
+# Praveen Raju Portfolio
 
-A simple, beautiful React portfolio website built with Vite.
+A modern and responsive portfolio website built with React to showcase my projects, technical skills, and software engineering experience.
 
-## Run locally in VS Code
+## ✨ Features
 
-1. **Unzip** the folder and open it in VS Code:
-   ```
-   File → Open Folder → my-portfolio
-   ```
-2. **Open the terminal** in VS Code (`Ctrl + ~` or `View → Terminal`).
-3. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-4. **Start the dev server**:
-   ```bash
-   npm run dev
-   ```
-5. Open the URL printed in the terminal (usually http://localhost:5173).
+- Responsive design for desktop and mobile
+- Project showcase with live demos
+- Skills and technology stack section
+- Resume download
+- Contact information
+- Smooth and modern UI
+- Built with reusable React components
 
-## Build for production
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- CSS3
+- React Icons
+- Vercel
+
+## 📂 Projects Featured
+
+### Basic Projects
+
+- Trello Clone
+- Memory Game
+- Non Profit Website
+- Game of Thrones UI
+- Todo App
+- Music Player
+
+### Advanced Projects
+
+- Magical Works
+- Enigma (SaaS Application)
+- Tanjiro (Cocktail & Mocktail App)
+- Gem AI (AI Chat & Image Generation)
+
+## 🏗️ Build for Production
+
 ```bash
 npm run build
+```
+
+Preview the production build:
+
+```bash
 npm run preview
 ```
 
-## Where to edit your content
+## 📁 Project Structure
 
-| What | File |
-|---|---|
-| Name, description, avatar | `src/components/Hero.jsx` |
-| Avatar image | replace `src/assets/avatar.png` |
-| Skills list | `src/components/Skills.jsx` |
-| Basic & Advanced projects (titles, links, descriptions) | `src/App.jsx` |
-| Footer: contact info, email, socials | `src/components/Footer.jsx` |
-| Colors / theme | `src/styles.css` (top `:root` block) |
+```text
+src/
+├── assets/
+├── components/
+│   ├── Hero.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   └── Footer.jsx
+├── App.jsx
+└── main.jsx
 
-Each project card is a clickable link — replace `https://your-app.vercel.app` with your real Vercel URL.
+public/
+└── assets/
+```
+
+## 📄 Resume
+
+The latest version of my resume can be downloaded directly from the portfolio website.
+
+
+## License
+
+This project is open source and available under the MIT License.
