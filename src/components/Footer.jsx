@@ -12,7 +12,7 @@ export default function Footer() {
           </p>
           <div>
             <a
-              href="/resume.pdf"
+              href="/assets/resume.pdf"
               download="Praveen_Raju_Resume.pdf"
               className="resume-download"
             >
