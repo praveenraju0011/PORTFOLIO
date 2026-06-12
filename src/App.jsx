@@ -14,19 +14,27 @@ export default function App() {
         subtitle="Fun starter apps & experiments"
         projects={[
           {
+            title: "Nike Landing Page",
+            description:
+              "Modern Nike-inspired landing page built with a clean and responsive UI, showcasing products, branding, and engaging visual design.",
+            link: "https://nike-landing-page-nine-gules.vercel.app/",
+            image: "/assets/nike.png",
+          },
+          {
+            title: "Contact Us Page",
+            description:
+              "Responsive contact page featuring a simple and user-friendly interface with structured form layouts and clean design elements.",
+            link: "https://contact-page-dusky-zeta.vercel.app/",
+            image: "/assets/contact_us.png",
+          },
+          {
             name: "Trello Clone",
             desc: "Creates boards,tickets and tracks progress of tasks like a task board.",
             tech: "React",
             link: "https://trello-delta-snowy.vercel.app/",
             image: "/assets/trello.png",
           },
-          {
-            name: "Memory Game",
-            desc: "Classic card matching memory game built using basic javascript.",
-            tech: "Javascript",
-            link: "https://praveen-dom-memory-game.vercel.app/",
-            image: "/assets/memory_game.png",
-          },
+
           {
             name: "Non Profit Website",
             desc: "Static informational website for a nonprofit concept.",
@@ -40,6 +48,13 @@ export default function App() {
             tech: "JavaScript",
             link: "https://praveen-dom-got.vercel.app/",
             image: "/assets/got_app.png",
+          },
+          {
+            name: "Memory Game",
+            desc: "Classic card matching memory game built using basic javascript.",
+            tech: "Javascript",
+            link: "https://praveen-dom-memory-game.vercel.app/",
+            image: "/assets/memory_game.png",
           },
           {
             name: "Todo App",
@@ -77,6 +92,13 @@ export default function App() {
             image: "/assets/tanjiro.png",
           },
           {
+            title: "Dice Game",
+            description:
+              "Interactive dice game built with React, featuring dynamic state management, random dice rolls, score tracking, and engaging gameplay.",
+            link: "https://dice-app-theta.vercel.app/",
+            image: "/assets/dice_game.png",
+          },
+          {
             name: "Gem AI",
             desc: "AI-powered chat and image generation platform built with Gen AI capabilities using Gemini AI.",
             tech: "React + NodeJs",
@@ -89,7 +111,7 @@ export default function App() {
             tech: "React",
             link: "https://saas-application-xi.vercel.app/",
             image: "/assets/enigma.png",
-          }
+          },
         ]}
       />
       <Footer />
