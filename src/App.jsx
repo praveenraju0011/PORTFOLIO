@@ -11,18 +11,18 @@ export default function App() {
       <Projects
         id="basic-projects"
         title="Basic Projects"
-        subtitle="Fun starter apps & experiments"
+        subtitle="Fun starter apps and development journey."
         projects={[
           {
             name: "Nike Landing Page",
-            desc: "Modern Nike-inspired landing page built with a clean and responsive UI, showcasing products, branding, and engaging visual design.",
+            desc: "Modern Nike-inspired landing page built with a clean and responsive UI design.",
             tech: "React",
             link: "https://nike-landing-page-nine-gules.vercel.app/",
             image: "/assets/nike.png",
           },
           {
             name: "Contact Us Page",
-            desc: "Responsive contact page featuring a simple and user-friendly interface with structured form layouts and clean design elements.",
+            desc: "Responsive contact page featuring a simple and user-friendly interface.",
             tech: "React",
             link: "https://contact-page-dusky-zeta.vercel.app/",
             image: "/assets/contact_us.png",
@@ -75,7 +75,7 @@ export default function App() {
       <Projects
         id="advanced-projects"
         title="Advanced Projects"
-        subtitle="Full-stack & production-grade builds"
+        subtitle="Well-crafted UI projects"
         projects={[
           {
             name: "Magical Works",
@@ -92,18 +92,18 @@ export default function App() {
             image: "/assets/tanjiro.png",
           },
           {
-            name: "Dice Game",
-            desc: "Interactive dice game built with React, featuring dynamic state management, random dice rolls, score tracking, and engaging gameplay.",
-            tech: "React",
-            link: "https://dice-app-theta.vercel.app/",
-            image: "/assets/dice_game.png",
-          },
-          {
             name: "Gem AI",
             desc: "AI-powered chat and image generation platform built with Gen AI capabilities using Gemini AI.",
             tech: "React + NodeJs",
             link: "https://gem-ai-ittp.vercel.app/",
             image: "/assets/gem_ai.png",
+          },
+          {
+            name: "Dice Game",
+            desc: "Interactive dice game built with React, featuring random dice rolls and engaging gameplay.",
+            tech: "React",
+            link: "https://dice-app-theta.vercel.app/",
+            image: "/assets/dice_game.png",
           },
           {
             name: "Enigma",
