@@ -14,16 +14,16 @@ export default function App() {
         subtitle="Fun starter apps & experiments"
         projects={[
           {
-            title: "Nike Landing Page",
-            description:
-              "Modern Nike-inspired landing page built with a clean and responsive UI, showcasing products, branding, and engaging visual design.",
+            name: "Nike Landing Page",
+            desc: "Modern Nike-inspired landing page built with a clean and responsive UI, showcasing products, branding, and engaging visual design.",
+            tech: "React",
             link: "https://nike-landing-page-nine-gules.vercel.app/",
             image: "/assets/nike.png",
           },
           {
-            title: "Contact Us Page",
-            description:
-              "Responsive contact page featuring a simple and user-friendly interface with structured form layouts and clean design elements.",
+            name: "Contact Us Page",
+            desc: "Responsive contact page featuring a simple and user-friendly interface with structured form layouts and clean design elements.",
+            tech: "React",
             link: "https://contact-page-dusky-zeta.vercel.app/",
             image: "/assets/contact_us.png",
           },
