@@ -92,9 +92,9 @@ export default function App() {
             image: "/assets/tanjiro.png",
           },
           {
-            title: "Dice Game",
-            description:
-              "Interactive dice game built with React, featuring dynamic state management, random dice rolls, score tracking, and engaging gameplay.",
+            name: "Dice Game",
+            desc: "Interactive dice game built with React, featuring dynamic state management, random dice rolls, score tracking, and engaging gameplay.",
+            tech: "React",
             link: "https://dice-app-theta.vercel.app/",
             image: "/assets/dice_game.png",
           },
