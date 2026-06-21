@@ -10,7 +10,7 @@ export default function Footer() {
             Passionate about building web applications and continuously learning
             new technologies.
           </p>
-          <div>
+          {/* <div>
             <a
               href="/assets/Praveen_Raju_Resume.pdf"
               download="Praveen_Raju_Resume.pdf"
@@ -18,7 +18,7 @@ export default function Footer() {
             >
               Download Resume
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div>
